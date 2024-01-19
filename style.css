@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #008454;
+    align-items: center;
+}
+
+header .logo img{
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+header nav ul li{
+    display: inline-block;
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+}
+header nav ul li:hover{
+    background-color: rgba(19, 19, 19, 0.261);
+    border-radius: 4px;
+}
+
+header .btn{
+    padding: 5px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #008454;
+}
+
+/* HEader section end */
+
+/* E-LEarning info section start */
+
+.e-info{
+    width: 100%;
+    height: 530px;
+    display: flex;
+}
+
+/* E-Info Goal section start */
+.e-info .goal{
+    width: 45%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.e-info .goal h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 0 16px;
+    font-weight: bolder;
+}
+
+.e-info .goal p{
+    padding: 10px 0px;
+}
+
+.e-info .goal section{
+    color: #747779;
+}
+
+/* E-info goal section end */
+
+/* E-info services section start */
+
+.e-info .services{
+    width: 55%;
+}
+
+.e-info .services .header-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.e-info .services .header-img img{
+    width: 110px;
+    height: 80px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.e-info .services .service-item{
+    width: 100%;
+    height: 400px;
+}
+
+.e-info .services .service-item{
+    display: flex;
+    justify-content: space-around;
+}
+.e-info .services .service-item div{
+    width: 40%;
+    height: 350px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:1px 1px 15px gray;
+}
+
+.e-info .services .service-item div h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.e-info .services .service-item div p{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.e-info .services .service-item div img{
+    width: 200px;
+}
+
+.e-info .services .service-item div .arrow-img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+/* Einfo services section end */
+
+/* Footer section start */
+
+footer{
+    text-align: right;
+    font-size: 15px;
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #008454;
+    font-weight: bold;
+}
+
+/* Footer section end */
